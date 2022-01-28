@@ -615,7 +615,7 @@ h3, h4 {
     color: black;
     padding: 0.8vw 1.04vw;
     text-decoration: none;
-    transform: rotate(1deg);
+    transform: rotate(2deg);
     width: 100%;
 }
 
@@ -628,7 +628,7 @@ h3, h4 {
     color: black;
     padding: 0.8vw 1.04vw;
     text-decoration: none;
-    transform: rotate(1deg);
+    transform: rotate(-4deg);
     width: 100%;
 }
 
