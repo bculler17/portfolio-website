@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="author" content="Beth Culler">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Oracle DB Summary </title>
+    <link rel="stylesheet" type="text/css" href="../../css/demo.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container"> 
+        <div id="company_logo" >
+            <p>  &lt;<em> Company Logo </em>&gt; </p>
+        </div>
+        <div id="title">
+          <h2> Oracle Database Summary </h2>
+        </div>
+      </div>
+    </div>
+    <div id="container1">
+      <div id="sidenav">
+        <div id="stickynav">
+          <span title="This link is unavailable in DEMO"> </span>
+          <ul>
+            <li><a href="#"><strong> Homepage - Oracle Database Summary</strong></a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer" title="This link is unavailable in DEMO">Current DB Performance Status</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer" title="This link is unavailable in DEMO">Oracle WIKI</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer" title="This link is unavailable in DEMO">Oracle Engineering Standards</a></li>
+            <li><a href="" target="_blank" rel="noopener noreferrer" title="This link is unavailable in DEMO">Oracle Dashboard README</a></li>
+            <li class="hovertext1" data-hover="Hover over the column header for more information."> Help </li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-wrapper">
+        <div id="main">
+          <p style="padding:0.33vw; padding-bottom:0.39vw; padding-top:3%; text-indent:0.39vw; font-size:1.63vw"> Environment Overview </p>
+          <p style="font-size:0.98vw; text-indent:7.16vw"> Information is current as of Dec 30th, 2021 08:01:53 </p> 
+          <table style="margin-bottom:1.3vw">
+            <caption> Oracle Databases </caption>
+            <tr>
+              <th class="hovertext" data-hover="The application being supported by the indicated Oracle DB.">APPLICATION NAME</th>
+              <th class="hovertext" data-hover="The name of the Oracle DB. Click a DB to view growth trends and additional information.">DB NAME</th>
+              <th class="hovertext" data-hover="The current version of the DB.">VERSION</th>
+	      <th class="hovertext" data-hover="RAC DB's provide high availability in 2+ node environments.">TYPE</th>
+              <th class="hovertext" data-hover="Total size of the DB as of Dec 30th, 2021 08:01:53. Size is checked once an hour.">CURRENT SIZE</th>
+              <th class="hovertext" data-hover="If NONE, the first node was removed from the cluster and no longer exists.">NODE 1</th>
+              <th class="hovertext" data-hover="If NONE, this is a standalone environment or the second node was removed from the cluster and no longer exists.">NODE 2</th>
+              <th class="hovertext" data-hover="The first database instance has been online the following number of days on NODE 1.">UPTIME 1</th>
+              <th class="hovertext" data-hover="The second database instance has been online the following number of days on NODE 2.">UPTIME 2</th>
+              <th class="hovertext" data-hover="The database is online (YES) or not online (NO) as of Dec 30th, 2021 08:01:53. Availability is checked once an hour.">ONLINE</th>
+            </tr>
+            
+              <tr>
+                
+                  <td> application1 </td>
+                  <td><a href="./dboverview-demo.html">database1</a></td>
+                  <td>19.0.0.0.0</td>
+                  <td>standalone</td>
+                  <td>	 3,010.12 GB</td>
+                  <td>hostname1</td>
+                  <td>None</td>
+                  <td> 51 days</td>
+                  <td>None</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>application2</td>
+                  <td><a href="./dboverview-demo.html">database2</a></td>
+                  <td>11.2.0.4.0</td>
+                  <td>RAC</td>
+                  <td>	 144.34 GB</td>
+                  <td>hostname2a</td>
+                  <td>hostname2b</td>
+                  <td>14 days</td>
+                  <td>14 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>application3</td>
+                  <td><a href="./dboverview-demo.html">database3</a></td>
+                  <td>11.2.0.4.0</td>
+                  <td>RAC</td>
+                  <td>	 2,560.14 GB</td>
+                  <td>hostname3a</td>
+                  <td>hostname3b</td>
+                  <td>60 days</td>
+                  <td> 60 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+            
+              <tr>
+                
+                  <td>application4</td>
+                  <td><a href="./dboverview-demo.html">database4</a></td>
+                  <td>19.0.0.0.0</td>
+                  <td>RAC</td>
+                  <td>       1,158.10 GB</td>
+                  <td>hostname4a</td>
+                  <td>None</td>
+                  <td>75 days</td>
+                  <td>None</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+            
+              <tr>
+                
+                  <td>application5</td>
+                  <td><a href="./dboverview-demo.html">database5</a></td>
+                  <td>10.2.0.4.0</td>
+                  <td>standalone</td>
+                  <td>592.49 GB</td>
+                  <td>hostname5</td>
+                  <td>None</td>
+                  <td>57 days</td>
+                  <td>None</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>application6</td>
+                  <td><a href="./dboverview-demo.html">database6</a></td>
+                  <td>19.0.0.0.0</td>
+                  <td>RAC</td>
+                  <td>802.69 GB</td>
+                  <td>hostname6a</td>
+                  <td>hostname6b</td>
+                  <td>57 days</td>
+                  <td>None</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>application7</td>
+                  <td><a href="./dboverview-demo.html">database7</a></td>
+                  <td>10.2.0.4.0</td>
+                  <td>RAC</td>
+                  <td>458.13 GB</td>
+                  <td>hostname7a</td>
+                  <td>hostname7b</td>
+                  <td>56 days</td>
+                  <td>27 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>application8</td>
+                  <td><a href="./dboverview-demo.html">database8</a></td>
+                  <td>11.2.0.4.0</td>
+                  <td>RAC</td>
+                  <td>464.03 GB</td>
+                  <td>hostname8a</td>
+                  <td>hostname8b</td>
+                  <td>92 days</td>
+                  <td>92 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>application9</td>
+                  <td><a href="./dboverview-demo.html">database9</a></td>
+                  <td>11.2.0.4.0</td>
+                  <td>RAC</td>
+                  <td>       5,035.02 GB</td>
+                  <td>hostname9a</td>
+                  <td>hostname9b</td>
+                  <td>								      19 days</td>
+                  <td>								      19 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>application10</td>
+                  <td><a href="./dboverview-demo.html">database10</a></td>
+                  <td>19.0.0.0.0</td>
+                  <td>RAC</td>
+                  <td>       1,638.83 GB</td>
+                  <td>hostname10a</td>
+                  <td>hostname10b</td>
+                  <td>								     100 days</td>
+                  <td>								      14 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+          </table>
+          <table style="margin-bottom:20px">
+            <caption> Oracle Database Servers </caption>
+            <tr>
+              <th class="hovertext" data-hover="The hostname of the database server.">HOSTNAME</th>
+              <th class="hovertext" data-hover="The IP address of the database server.">IP</th>
+              <th class="hovertext" data-hover="The operating system used by the database server as of Dec 30th, 2021 08:01:53.">OS</th>
+              <th class="hovertext" data-hover="The server has been online the following number of days.">UPTIME</th>
+              <th class="hovertext" data-hover="The server is online (YES) or not online (NO) as of Dec 30th, 2021 08:01:53. Availability is checked once an hour.">ONLINE</th>
+            </tr>
+            
+              <tr>
+                
+                  <td>hostname1</td>
+                  <td>0.0.0.0</td>
+                  <td>Red Hat Enterprise Linux </td>
+                  <td>252 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname2a</td>
+                  <td>0.0.0.0</td>
+                  <td>AIX </td>
+                  <td>301 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname2b</td>
+                  <td>0.0.0.0</td>
+                  <td>AIX </td>
+                  <td>301 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname3a</td>
+                  <td>0.0.0.0</td>
+                  <td>AIX</td>
+                  <td>1050 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname3b</td>
+                  <td>0.0.0.0</td>
+                  <td>AIX</td>
+                  <td>1050 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname4a</td>
+                  <td>0.0.0.0</td>
+                  <td>AIX</td>
+                  <td>900 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname5</td>
+                  <td>0.0.0.0</td>
+                  <td>AIX</td>
+                  <td>321 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname6a</td>
+                  <td>0.0.0.0</td>
+                  <td>AIX</td>
+                  <td>302 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname6b</td>
+                  <td>0.0.0.0</td>
+                  <td>AIX</td>
+                  <td>302 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname7a</td>
+                  <td>0.0.0.0</td>
+                  <td>AIX</td>
+                  <td>112 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname7b</td>
+                  <td>0.0.0.0</td>
+                  <td>AIX</td>
+                  <td>112 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname8a</td>
+                  <td>0.0.0.0</td>
+                  <td>Red Hat Enterprise Linux</td>
+                  <td>92 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname8b</td>
+                  <td>0.0.0.0</td>
+                  <td>Red Hat Enterprise Linux</td>
+                  <td>92 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname9a</td>
+                  <td>0.0.0.0</td>
+                  <td>Red Hat Enterprise Linux</td>
+                  <td>126 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname9b</td>
+                  <td>0.0.0.0</td>
+                  <td>Red Hat Enterprise Linux</td>
+                  <td>126 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td>hostname10a</td>
+                  <td>0.0.0.0</td>
+                  <td>AIX</td>
+                  <td>1135 days</td>
+                  <td>YES</td>
+                
+              </tr>
+            
+              <tr>
+                
+                  <td style="background-color:#ffcab0">hostname10b</td>
+                  <td style="background-color:#ffcab0">0.0.0.0</td>
+                  <td style="background-color:#ffcab0">AIX</td>
+                  <td style="background-color:#ffcab0">0 days</td>
+                  <td style="background-color:#ffcab0; text-align:center"><strong>NO</strong></td>
+                
+              </tr>
+            
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

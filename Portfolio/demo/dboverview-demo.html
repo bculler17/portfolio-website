@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="author" content="Beth Culler">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Oracle DB Summary </title>
+    <link rel="stylesheet" type="text/css" href="../../css/demo.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container"> 
+        <div id="company_logo">
+            <p>  &lt;<em> Company Logo </em>&gt; </p>
+        </div>
+        <div id="title">
+          <h2> Oracle Database Summary </h2>
+        </div>
+      </div>
+    </div>
+    <div id="container1">
+      <div id="sidenav">
+        <div id="stickynav">
+            <span title="This link is unavailable in DEMO"> </span>
+            <ul>
+            <li><a href="./dashboard_demo_index.html"><strong> Homepage - Oracle Database Summary</strong></a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer" title="This link is unavailable in DEMO">Current DB Performance Status</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer" title="This link is unavailable in DEMO">Oracle WIKI</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer" title="This link is unavailable in DEMO">Oracle Engineering Standards</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer" title="This link is unavailable in DEMO">Oracle Dashboard README</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-wrapper">
+        <div id="main">
+            <p style="padding:0.33vw; padding-bottom:0.39vw; padding-top:3%; text-indent:3.9vw; font-size:1.63vw" id="top"> &lt;<em>Database Name</em>&gt; : Database Overview </p>
+          <table style="margin-bottom:1.3vw">
+            <caption>Diskgroup Usage <br> <p style="font-size:0.98vw; text-align:center; padding:1%; color:black"><i> Last Updated: Dec 30th, 2021 09:15:04</i> </p> </caption>
+            <tr>
+              <th>DISKGROUP NAME</th>
+              <th>TOTAL SIZE GB</th>
+              <th>USED SIZE GB</th>
+              <th>% USED</th>
+            </tr>
+            
+              <tr>
+                <td> <a href="#dg1">DISKGROUP_NAME1</a></td>
+                <td>         839.99</td>
+                <td>         289.55</td>
+                <td>34.47</td>
+              </tr>
+            
+              <tr>
+                <td> <a href="#dg2">DISKGROUP_NAME2</a></td>
+                <td>         120.00</td>
+                <td>           8.07</td>
+                <td>6.73</td>
+              </tr>
+            
+              <tr>
+                <td> <a href="#dg3">DISKGROUP_NAME3</a></td>
+                <td>          15.00</td>
+                <td>            .67</td>
+                <td>4.47</td>
+              </tr>
+            
+              <tr>
+                <td> <a href="#dg4">DISKGROUP_NAME4</a></td>
+                <td>          15.00</td>
+                <td>            .67</td>
+                <td>4.47</td>
+              </tr>
+            
+              <tr>
+                <td> <a href="#dg5">DISKGROUP_NAME5</a></td>
+                <td>         120.00</td>
+                <td>           2.06</td>
+                <td>1.72</td>
+              </tr>
+            
+  
+            
+          </table>
+          <table style="margin-bottom:1.3vw">
+            <caption> Tablespace Usage <br> <p style="font-size:0.98vw; text-align:center; padding-top:1%; color:black"><i> Last Updated: Dec 30th, 2021 06:30:28</i> </p> <br> <p style="font-size:18px; text-align:center; color:black; padding-bottom:1%"><strong> TOTAL db_files:</strong> 20 </p> <p style="font-size:17px; text-align:center;padding-top:0px; padding-bottom:2%; color:black"> MAX db_files: 200 </p></caption>
+            <tr>
+              <th>TABLESPACE NAME</th>
+              <th>TOTAL SIZE GB</th>
+              <th>USED SIZE GB</th>
+              <th>% USED</th>
+            </tr>
+            
+              <tr>
+                <td><a href="#tb1">tablespace1</a></td>
+                <td>         384.00</td>
+                <td>         263.07</td>
+                <td>68.51</td>
+              </tr>
+            
+              <tr>
+                <td><a href="#tb2">tablespace2</a></td>
+                <td>          32.00</td>
+                <td>           1.93</td>
+                <td>6.03</td>
+              </tr>
+            
+              <tr>
+                <td><a href="#tb3">tablespace3</a></td>
+                <td>          32.00</td>
+                <td>           1.25</td>
+                <td>3.9</td>
+              </tr>
+            
+              <tr>
+                <td><a href="#tb4">tablespace4</a></td>
+                <td>          32.00</td>
+                <td>           1.19</td>
+                <td>3.72</td>
+              </tr>
+            
+              <tr>
+                <td><a href="#tb5">tablespace5</a></td>
+                <td>         128.00</td>
+                <td>            .95</td>
+                <td>0.74</td>
+              </tr>
+            
+              <tr>
+                <td><a href="#tb6">tablespace6</a></td>
+                <td>          32.00</td>
+                <td>            .01</td>
+                <td>0.04</td>
+              </tr>
+            
+              <tr>
+                <td><a href="#tb7">tablespace7</a></td>
+                <td>          32.00</td>
+                <td>            .00</td>
+                <td>0.01</td>
+              </tr>
+            
+          </table>
+          <p style="padding:0.33vw; padding-bottom:0.4vw; padding-top:5%; text-indent:3.9vw; font-size:1.63vw"> &lt;<em>Database Name</em>&gt; : Diskgroup Growth Trends </p>
+           
+            <button id="dg1" class="btn" onclick="window.location.href='#top';"> Back to the top </button> 
+            <h5> DISKGROUP1 Size <br>(30 Day Window) </h5>
+            <button class="btn2" onclick="window.location.href='./historical_demo.html';"> Historical View </button>
+            <img src= "../../images/linegraph2.jpg" alt="Line Graph" class="grph">
+           
+            <button id="dg2" class="btn" onclick="window.location.href='#top';"> Back to the top </button> 
+            <h5> DISKGROUP2 Size <br>(30 Day Window) </h5>
+            <button class="btn2" onclick="window.location.href='./historical_demo.html';"> Historical View </button>
+            <img src= "../../images/linegraph1.jpg" alt="Line Graph" class="grph">
+           
+            <button id="dg3" class="btn" onclick="window.location.href='#top';"> Back to the top </button> 
+            <h5> DISKGROUP3 Size <br>(30 Day Window) </h5>
+            <button class="btn2" onclick="window.location.href='./historical_demo.html';"> Historical View </button>
+            <img src= "../../images/linegraph3.jpg" alt="Line Graph" class="grph">
+           
+            <button id="dg4" class="btn" onclick="window.location.href='#top';"> Back to the top </button> 
+            <h5> DISKGROUP4 Size <br>(30 Day Window) </h5>
+            <button class="btn2" onclick="window.location.href='./historical_demo.html';"> Historical View </button>
+            <img src= "../../images/linegraph4.jpg" alt="Line Graph" class="grph">
+           
+            <button id="dg5" class="btn" onclick="window.location.href='#top';"> Back to the top </button> 
+            <h5> DISKGROUP5 Size <br>(30 Day Window) </h5>
+            <button class="btn2" onclick="window.location.href='./historical_demo.html';"> Historical View </button>
+            <img src= "../../images/linegraph2.jpg" alt="Line Graph" class="grph">
+           
+          
+            <p style="padding:0.33vw; padding-bottom:0.4vw; padding-top:5%; text-indent:3.9vw; font-size:1.63vw"> &lt;<em>Database Name</em>&gt; : Tablespace Growth Trends </p>
+          
+            <button id="tb1" class="btn" onclick="window.location.href='#top';"> Back to the top </button>
+            <h5> TABLESPACE1 Size <br>(30 Day Window) </h5>
+            <button class="btn2" onclick="window.location.href='./historical_demo.html';"> Historical View </button>
+            <img src= "../../images/linegraph4.jpg" alt="Line Graph" class="grph">
+            <table style="margin-bottom:1.3vw">
+              <caption> TABLESPACE1 Datafiles <br> <p style="font-size:0.98vw; text-align:center; padding-top:1%; color:black"><i> Last Updated: Dec 30th, 2021 06:30:28</i> </caption>
+              <tr>
+                <th>TABLESPACE NAME</th>
+                <th>DATAFILE NAME</th>
+                <th>CREATION DATE</th>
+              </tr>
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  <tr>
+                    <td>TABLESPACE1</td>
+                    <td>+DISKGROUP1/DBNAME/DATAFILE/tablespace1.123.45678910</td>
+                    <td>11-MAR-2018 11:42:57</td>
+                  </tr>
+                
+              
+                
+                  <tr>
+                    <td>TABLESPACE1</td>
+                    <td>+DISKGROUP1/DBNAME/DATAFILE/tablespace1.123.45678910</td>
+                    <td>21-JAN-2019 08:29:07</td>
+                  </tr>
+                
+              
+                
+                  <tr>
+                    <td>TABLESPACE1</td>
+                    <td>+DISKGROUP1/DBNAME/DATAFILE/tablespace1.123.45678910</td>
+                    <td>18-FEB-2019 09:14:19</td>
+                  </tr>
+                
+       
+                      
+                  <tr>
+                    <td>TABLESPACE1</td>
+                    <td>+DISKGROUP1/DBNAME/DATAFILE/tablespace1.123.45678910</td>
+                    <td>16-APR-2019 07:21:25</td>
+                  </tr>
+                  
+                  <tr>
+                    <td>TABLESPACE1</td>
+                    <td>+DISKGROUP1/DBNAME/DATAFILE/tablespace1.123.45678910</td>
+                    <td>20-SEP-2019 08:12:31</td>
+                  </tr>
+                  
+                  <tr>
+                    <td>TABLESPACE1</td>
+                    <td>+DISKGROUP1/DBNAME/DATAFILE/tablespace1.123.45678910</td>
+                    <td>01-APR-2021 03:47:12</td>
+                  </tr>
+              
+                
+              
+            </table>
+          
+            <button id="tb2" class="btn" onclick="window.location.href='#top';"> Back to the top </button>
+            <h5> TABLESPACE2 Size <br>(30 Day Window) </h5>
+            <button class="btn2" onclick="window.location.href='./historical_demo.html';"> Historical View </button>
+            <img src= "../../images/linegraph4.jpg" alt="Line Graph" class="grph">
+            <table style="margin-bottom:1.3vw">
+              <caption> TABLESPACE2 Datafiles <br> <p style="font-size:0.98vw; text-align:center; padding-top:1%; color:black"><i> Last Updated: Dec 30th, 2021 06:30:28</i> </caption>
+              <tr>
+                <th>TABLESPACE NAME</th>
+                <th>DATAFILE NAME</th>
+                <th>CREATION DATE</th>
+              </tr>
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  <tr>
+                    <td>TABLESPACE2</td>
+                    <td>+DISKGROUP2/DBNAME/DATAFILE/tablespace2.123.45678910</td>
+                    <td>11-MAR-2018 08:28:57</td>
+                  </tr>
+                
+              
+                
+                  
+              
+                
+              
+            </table>
+            
+            
+            <button id="tb3" class="btn" onclick="window.location.href='#top';"> Back to the top </button>
+            <h5> TABLESPACE3 Size <br>(30 Day Window) </h5>
+            <button class="btn2" onclick="window.location.href='./historical_demo.html';"> Historical View </button>
+            <img src= "../../images/linegraph4.jpg" alt="Line Graph" class="grph">
+            <table style="margin-bottom:1.3vw">
+              <caption> TABLESPACE3 Datafiles <br> <p style="font-size:0.98vw; text-align:center; padding-top:1%; color:black"><i> Last Updated: Dec 30th, 2021 06:30:28</i> </caption>
+              <tr>
+                <th>TABLESPACE NAME</th>
+                <th>DATAFILE NAME</th>
+                <th>CREATION DATE</th>
+              </tr>
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  <tr>
+                    <td>TABLESPACE3</td>
+                    <td>+DISKGROUP3/DBNAME/DATAFILE/tablespace3.123.45678910</td>
+                    <td>11-MAR-2018 08:28:57</td>
+                  </tr>
+                
+              
+          
+                
+              
+                
+              
+            </table>
+          
+            
+            <button id="tb4" class="btn" onclick="window.location.href='#top';"> Back to the top </button>
+            <h5> TABLESPACE4 Size <br>(30 Day Window) </h5>
+            <button class="btn2" onclick="window.location.href='./historical_demo.html';"> Historical View </button>
+            <img src= "../../images/linegraph4.jpg" alt="Line Graph" class="grph">
+            <table style="margin-bottom:1.3vw">
+              <caption> TABLESPACE4 Datafiles <br> <p style="font-size:0.98vw; text-align:center; padding-top:1%; color:black"><i> Last Updated: Dec 30th, 2021 06:30:28</i> </caption>
+              <tr>
+                <th>TABLESPACE NAME</th>
+                <th>DATAFILE NAME</th>
+                <th>CREATION DATE</th>
+              </tr>
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  <tr>
+                    <td>TABLESPACE4</td>
+                    <td>+DISKGROUP4/DBNAME/DATAFILE/tablespace4.123.45678910</td>
+                    <td>11-MAR-2018 08:28:57</td>
+                  </tr>
+                
+              
+                
+      
+              
+                
+              
+            </table>
+            
+            
+            
+            
+            <button id="tb5" class="btn" onclick="window.location.href='#top';"> Back to the top </button>
+            <h5> TABLESPACE5 Size <br>(30 Day Window) </h5>
+            <button class="btn2" onclick="window.location.href='./historical_demo.html';"> Historical View </button>
+            <img src= "../../images/linegraph4.jpg" alt="Line Graph" class="grph">
+            <table style="margin-bottom:1.3vw">
+              <caption> TABLESPACE5 Datafiles <br> <p style="font-size:0.98vw; text-align:center; padding-top:1%; color:black"><i> Last Updated: Dec 30th, 2021 06:30:28</i> </caption>
+              <tr>
+                <th>TABLESPACE NAME</th>
+                <th>DATAFILE NAME</th>
+                <th>CREATION DATE</th>
+              </tr>
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  <tr>
+                    <td>TABLESPACE5</td>
+                    <td>+DISKGROUP1/DBNAME/DATAFILE/tablespace5.123.45678910</td>
+                    <td>11-MAR-2018 08:28:57</td>
+                  </tr>
+                
+              
+                  <tr>
+                    <td>TABLESPACE5</td>
+                    <td>+DISKGROUP1/DBNAME/DATAFILE/tablespace5.123.45678910</td>
+                    <td>09-JUN-2020 09:29:07</td>
+                  </tr>
+                
+              
+                
+                  <tr>
+                    <td>TABLESPACE5</td>
+                    <td>+DISKGROUP1/DBNAME/DATAFILE/tablespace5.123.45678910</td>
+                    <td>25-JUL-2020 08:29:11</td>
+                  </tr>
+                
+       
+                      
+                  <tr>
+                    <td>TABLESPACE5</td>
+                    <td>+DISKGROUP1/DBNAME/DATAFILE/tablespace5.123.45678910</td>
+                    <td>11-MAY-2021 08:29:25</td>
+                  </tr>
+              
+                
+              
+            </table>
+            
+            
+            <button id="tb6" class="btn" onclick="window.location.href='#top';"> Back to the top </button>
+            <h5> TABLESPACE6 Size <br>(30 Day Window) </h5>
+            <button class="btn2" onclick="window.location.href='./historical_demo.html';"> Historical View </button>
+            <img src= "../../images/linegraph4.jpg" alt="Line Graph" class="grph">
+            <table style="margin-bottom:1.3vw">
+              <caption> TABLESPACE6 Datafiles <br> <p style="font-size:0.98vw; text-align:center; padding-top:1%; color:black"><i> Last Updated: Dec 30th, 2021 06:30:28</i> </caption>
+              <tr>
+                <th>TABLESPACE NAME</th>
+                <th>DATAFILE NAME</th>
+                <th>CREATION DATE</th>
+              </tr>
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  <tr>
+                    <td>TABLESPACE6</td>
+                    <td>+DISKGROUP5/DBNAME/DATAFILE/tablespace6.123.45678910</td>
+                    <td>11-MAR-2018 08:28:57</td>
+                  </tr>
+               
+              
+                
+              
+            </table>
+            
+            
+            <button id="tb7" class="btn" onclick="window.location.href='#top';"> Back to the top </button>
+            <h5> TABLESPACE7 Size <br>(30 Day Window) </h5>
+            <button class="btn2" onclick="window.location.href='./historical_demo.html';"> Historical View </button>
+            <img src= "../../images/linegraph4.jpg" alt="Line Graph" class="grph">
+            <table style="margin-bottom:1.3vw">
+              <caption> TABLESPACE7 Datafiles <br> <p style="font-size:0.98vw; text-align:center; padding-top:1%; color:black"><i> Last Updated: Dec 30th, 2021 06:30:28</i> </caption>
+              <tr>
+                <th>TABLESPACE NAME</th>
+                <th>DATAFILE NAME</th>
+                <th>CREATION DATE</th>
+              </tr>
+              
+                
+              
+                
+              
+                
+              
+                
+              
+                
+                  <tr>
+                    <td>TABLESPACE7</td>
+                    <td>+DISKGROUP4/DBNAME/DATAFILE/tablespace7.123.45678910</td>
+                    <td>11-MAR-2018 08:28:57</td>
+                  </tr>
+                
+        
+              
+                
+              
+            </table>
+            
+            
+            
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
