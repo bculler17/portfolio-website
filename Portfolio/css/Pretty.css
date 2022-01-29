@@ -566,11 +566,11 @@ h3, h4 {
 }
 
 .prect:hover {
-    transform: scale(1.05) rotate(1deg);
+    transform: scale(1.05) rotate(360deg);
 }
 
 .brect:hover {
-    transform: scale(1.05) rotate(1deg);
+    transform: scale(1.05) rotate(360deg);
 }
 
 .dropdown-content1 {
