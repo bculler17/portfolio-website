@@ -152,20 +152,7 @@ a:visited {
   /* For mobile phones: */
   * {
     margin-top: 4%;
-    padding: 2%;
   }
-    
-  body {
-    font-size: 0.938rem;
-  }
-    
-  h1 {
-    font-size: 1.063rem;
-}
-
-h2 {
-    font-size: 1rem;
-}
   
   .container1, .container3 {
     height:65%;
