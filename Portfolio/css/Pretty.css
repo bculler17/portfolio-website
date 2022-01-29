@@ -716,10 +716,6 @@ h3, h4 {
         font-size:1.56vw;
     }
     
-    .scontainer {
-        margin-top:25%; 
-}
-  
     .scontainer-inner {
         width: 50%;
     }
@@ -731,10 +727,6 @@ h3, h4 {
         font-size: 1.56vw;
     }
     
-    .scontainer {
-        margin-top:25%; 
-    }
-    
     .scontainer-inner {
         width: 50%;
     }
@@ -744,10 +736,6 @@ h3, h4 {
 @media screen and (min-width: 1024px) {
     .sticky-content {
         font-size: 1.96vw;
-    }
-    
-    .scontainer {
-        margin-top:25%; 
     }
     
     .scontainer-inner {
